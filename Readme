@@ -1,0 +1,16 @@
+Sets to Install and run the program
+
+First we need to install all the updates for the Pox controller
+
+Run the topology code (1.py)
+This creates the topology
+
+Now in different terminal the Iperf commands in all the 4 terminal with the basic controller
+
+Now we could see that bandthwidth is same
+
+Now start the controller(controller2.py) in different terminal.
+
+Post that open 4 hosts with xterm h1 h2 h3 h4
+
+Now run the iperf and we can see that bandwidth is shared according to the priorities set in the controller
